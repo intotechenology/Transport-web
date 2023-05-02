@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transport Sign Up/Sign In</title>
+	<style>
+		body {
+			background-color: blue;
+		}
+		nav {
+			background-color: white;
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+		}
+		.car-logo {
+			height: 30px;
+			margin-right: 10px;
+		}
+		form {
+			background-color: rgb(225, 141, 30);
+			padding: 20px;
+			margin-top: 50px;
+			border-radius: 10px;
+			box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+			max-width: 500px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		h2 {
+			margin-bottom: 20px;
+		}
+		label {
+			display: block;
+			margin-bottom: 5px;
+		}
+		input {
+			display: block;
+			margin-bottom: 10px;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+			width: 100%;
+		}
+		button {
+			background-color: blue;
+			color: rgb(150, 225, 21);
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			width: 100%;
+			margin-top: 10px;
+		}
+		button:hover {
+			background-color: navy;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#"><img src="images/car1.png.jpg" alt="Transport Company Logo" class="car-logo"></a></li>
+			<li><a href="#"><img src="car1.png" alt="Car 1 Logo" class="car-logo"></a></li>
+			<li><a href="#"><img src="car2.png" alt="Car 2 Logo" class="car-logo"></a></li>
+			<li><a href="#"><img src="car3.png" alt="Car 3 Logo" class="car-logo"></a></li>
+			<li><a href="#"><img src="car4.png" alt="Car 4 Logo" class="car-logo"></a></li>
+			<li><a href="#">Sign In</a></li>
+			<li><a href="#">Sign Up</a></li>
+		</ul>
+	</nav>
+	<form>
+		<h2>Sign Up</h2>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<button type="submit">Sign Up</button>
+	</form>
+</body>
+</html>
